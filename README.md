@@ -18,7 +18,7 @@ The program operates in one of three modes
 
 Mode | Selection | Comment
 -----|-----------|--------
-Named command | Script or cmdlet | The name command is executed with the given argument list. If `-InputString` was specified then stdin is read and the lines are provided as input pipeline values.
+Named command | Script or cmdlet | The command is executed with the given argument list. If `-InputString` was specified then stdin is read and the lines are provided as input pipeline values.
 Stdin script | Hyphen as command | The PowerShell script is read in its entirety from stdin and used as a script. Arguments will be passed to the script.
 REPL | No command present | Stdin is read line by line and executed as a script.
 
